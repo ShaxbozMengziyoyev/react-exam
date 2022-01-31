@@ -1,0 +1,66 @@
+.todos {
+  display: flex;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.todo__items {
+  list-style-type: none;
+}
+
+.container{
+  width: 700px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  padding: 15px 10px;
+  border: 1px solid red;
+  border-radius: 4px;
+  margin-bottom: 1px;
+}
+
+.container__div {
+  margin-right: 40px;
+}
+
+.todo__list {
+  min-height: 50vh;
+  border: 1px solid red;
+  padding: 15px 10px;
+  overflow: auto;
+}
+
+.conteiner__hr {
+  height: 40px;
+}
+
+.todos__input {
+  width: 300px;
+  padding: 10px 10px;
+  margin-right: 50px;
+}
+
+.todo__select {
+  border: none;
+  margin-right: 20px;
+}
+
+.todos__navlink {
+  text-decoration: none;
+  text-align: center;
+  background-color: #fff;
+  font-size: 17px;
+  border: 1px solid #333;
+  padding: 9px 10px;
+  color: #000;
+}
+
+.todo__add {
+  transform: translateY(20px);
+}
+
+.todo__button-delet {
+  transform: translateY(20px);
+}

@@ -1,0 +1,35 @@
+/* main page*/
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.App{
+   display: flex;
+   min-height: 100vh;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(130deg, blue, rgb(15, 239, 255));
+}
+.signup{
+   border: 5px double rgba(0, 0, 0, 0.152);
+   padding: 50px;
+   box-shadow: 10px 10px 20px 10px black;
+}
+.btn-start{
+   border: 3px solid rgb(14, 132, 211);
+   width: 70px;
+   height: 70px;
+   color: transparent;
+   border-radius: 50px;
+   transition: 1s;
+   background: linear-gradient(130deg, rgb(0, 89, 141), rgb(0, 247, 255));
+   white-space: nowrap;
+   overflow: hidden;
+}
+.btn-start:hover{
+   width: 170px;
+   color: white;
+   transition: 1s;
+   cursor: pointer;
+}
